@@ -4,9 +4,9 @@
  <meta name="google-site-verification" content="UtQa3kQbka9YHVvT5NL7Fy12ZPbGFpsFJZJ9hQ48Lmc" />
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Critiplot</title>
-  <meta name="description" content="Critiplot is a free, open-source visualization tool for generating risk of bias assessments including NOS, GRADE, ROBIS, JBI, and MMAT. Ideal for meta-analysis, systematic reviews, and evidence synthesis.">
-  <meta name="keywords" content="Critiplot, NOS, Newcastle–Ottawa Scale, GRADE, ROBIS, JBI, MMAT, Mixed Methods Appraisal Tool, traffic light plot, meta-analysis, risk of bias, bias visualization, systematic review, evidence synthesis, open-source visualization tool, publication-ready plots, reproducible research, Certainy of Evidence, Vihaan Sahu">
+  <title>Critiplot: Risk of Bias Visualization Tool / NOS, JBI, GRADE, ROBIS, MMAT</title>
+  <meta name="description" content="Critiplot is a free, open-source risk of bias visualization tool. Generate publication-ready traffic light plots and summary plots for NOS, GRADE, ROBIS, JBI, and MMAT for systematic reviews and meta-analyses.">
+  <meta name="keywords" content="Critiplot, NOS, Newcastle-Ottawa Scale, GRADE, ROBIS, JBI, MMAT, Mixed Methods Appraisal Tool, traffic light plot, meta-analysis, risk of bias, bias visualization, systematic review, evidence synthesis, open-source visualization tool, Certainty of Evidence, Vihaan Sahu">
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
   <meta name="author" content="Vihaan Sahu">
   <meta name="copyright" content="© 2025 Vihaan Sahu">
@@ -15,10 +15,12 @@
   <link rel="icon" href="assets/icon.png" type="image/png">
   <meta name="theme-color" content="#2c3e50">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Critiplot | Risk of Bias Visualization Tool">
-  <meta property="og:description" content="Generate professional traffic light plots and bias visualizations using multiple assessment tools including NOS, GRADE, ROBIS, JBI, and MMAT for meta-analysis and systematic reviews.">
-  <meta property="og:image" content="https://critiplot.vercel.app/assets/preview1.png">
-  <meta property="og:image:alt" content="Critiplot risk of bias traffic light plot example">
+<meta property="og:title" content="Critiplot / Free Risk of Bias Visualization Tool (NOS, JBI, GRADE, ROBIS, MMAT)">
+<meta name="twitter:title" content="Critiplot / Free Risk of Bias Visualization Tool for Meta-Analysis">
+<meta property="og:image" content="https://critiplot.vercel.app/assets/preview1.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Critiplot risk of bias traffic light plot example">
   <meta property="og:image" content="https://critiplot.vercel.app/example/result.png">
   <meta property="og:image:alt" content="Critiplot NOS Figure">
   <meta property="og:image" content="https://critiplot.vercel.app/example/result1.png">
@@ -64,8 +66,7 @@
   <meta property="og:url" content="https://critiplot.vercel.app/">
   <meta property="og:site_name" content="Critiplot">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Critiplot | Risk of Bias Visualization for Meta-Analysis">
-  <meta name="twitter:description" content="Open-source tool for generating risk of bias visualizations using multiple assessment tools including NOS, GRADE, ROBIS, JBI, and MMAT.">
+  <meta name="twitter:description" content="Free open-source tool for generating risk of bias visualizations using NOS, GRADE, ROBIS, JBI, and MMAT.">
   <meta name="twitter:image" content="https://critiplot.vercel.app/assets/preview1.png">
   <meta name="twitter:image:alt" content="Traffic light plot visualization example">
   <meta name="twitter:creator" content="@Vihaan">
@@ -74,148 +75,94 @@
   <meta name="citation_publication_date" content="2025">
   <meta name="citation_doi" content="10.5281/zenodo.17236600">
   <meta name="citation_pdf_url" content="https://osf.io/8dtfq/download?format=pdf">
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "SoftwareApplication",
-    "name": "Critiplot",
-    "alternateName": "Critical Appraisal Plot Visualiser for Risk of Bias Assessments",
-    "operatingSystem": "Web, Python",
-    "applicationCategory": "Visualization Tool",
-    "description": "An open-source tool to generate risk of bias visualizations for multiple assessment tools including NOS, GRADE, ROBIS, JBI, and MMAT for meta-analysis and evidence synthesis.",
-    "url": "https://critiplot.vercel.app/",
-    "downloadUrl": "https://pypi.org/project/critiplot/",
-    "applicationSubCategory": "Research Tool",
-    "image": [
-      {
-        "@type": "ImageObject",
-        "url": "https://critiplot.vercel.app/assets/preview1.png",
-        "caption": "Critiplot risk of bias traffic light plot example"
-      },
-      {
-        "@type": "ImageObject",
-        "url": "https://critiplot.vercel.app/example/result.png",
-        "caption": "Critiplot NOS Figure"
-      },
-      {
-        "@type": "ImageObject",
-        "url": "https://critiplot.vercel.app/example/result1.png",
-        "caption": "Critiplot NOS Figure gray"
-      },
-      {
-        "@type": "ImageObject",
-        "url": "https://critiplot.vercel.app/example/result2.png",
-        "caption": "Critiplot NOS Figure blue"
-      },
-      {
-        "@type": "ImageObject",
-        "url": "https://critiplot.vercel.app/example/grade_result1.png",
-        "caption": "Critiplot GRADE Figure default"
-      },
-      {
-        "@type": "ImageObject",
-        "url": "https://critiplot.vercel.app/example/grade_result3.png",
-        "caption": "Critiplot GRADE Figure blue"
-      },
-      {
-        "@type": "ImageObject",
-        "url": "https://critiplot.vercel.app/example/robis_result1.png",
-        "caption": "Critiplot ROBIS Figure"
-      },
-      {
-        "@type": "ImageObject",
-        "url": "https://critiplot.vercel.app/example/robis_result2.png",
-        "caption": "Critiplot ROBIS Figure blue"
-      },
-      {
-        "@type": "ImageObject",
-        "url": "https://critiplot.vercel.app/example/robis_result5.png",
-        "caption": "Critiplot ROBIS Figure gray"
-      },
-      {
-        "@type": "ImageObject",
-        "url": "https://critiplot.vercel.app/example/case_report2.png",
-        "caption": "Critiplot JBI Case Report Figure gray"
-      },
-      {
-        "@type": "ImageObject",
-        "url": "https://critiplot.vercel.app/example/case_report3.png",
-        "caption": "Critiplot JBI Case Report Figure smiley"
-      },
-      {
-        "@type": "ImageObject",
-        "url": "https://critiplot.vercel.app/example/series_plot.png",
-        "caption": "Critiplot JBI Case Series Figure"
-      },
-      {
-        "@type": "ImageObject",
-        "url": "https://critiplot.vercel.app/example/series_plot1.png",
-        "caption": "Critiplot JBI Case Series Figure blue"
-      },
-      {
-        "@type": "ImageObject",
-        "url": "https://critiplot.vercel.app/example/series_plot2.png",
-        "caption": "Critiplot JBI Case Series Figure gray"
-      },
-      {
-        "@type": "ImageObject",
-        "url": "https://critiplot.vercel.app/example/MMAT1.png",
-        "caption": "Critiplot MMAT Figure 1"
-      },
-      {
-        "@type": "ImageObject",
-        "url": "https://critiplot.vercel.app/example/MMAT2.png",
-        "caption": "Critiplot MMAT Figure 2"
-      },
-      {
-        "@type": "ImageObject",
-        "url": "https://critiplot.vercel.app/example/MMAT3.png",
-        "caption": "Critiplot MMAT Figure 3"
-      },
-      {
-        "@type": "ImageObject",
-        "url": "https://critiplot.vercel.app/example/MMAT4.png",
-        "caption": "Critiplot MMAT Figure 4"
-      },
-      {
-        "@type": "ImageObject",
-        "url": "https://critiplot.vercel.app/example/MMAT5.png",
-        "caption": "Critiplot MMAT Figure 5"
-      },
-      {
-        "@type": "ImageObject",
-        "url": "https://critiplot.vercel.app/example/Screenshot1.png",
-        "caption": "Critiplot"
-      },
-      {
-        "@type": "ImageObject",
-        "url": "https://critiplot.vercel.app/example/Screenshot2.png",
-        "caption": "Critiplot User-Interface"
-      },
-      {
-        "@type": "ImageObject",
-        "url": "https://critiplot.vercel.app/example/Screenshot3.png",
-        "caption": "Critiplot frontend site"
-      }
-    ],
-    "creator": {
-      "@type": "Person",
-      "name": "Vihaan Sahu",
-      "affiliation": "Critiplot Project"
+ <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Critiplot",
+  "alternateName": "Critical Appraisal Plot Visualiser for Risk of Bias Assessments",
+  "operatingSystem": "Web, Python",
+  "applicationCategory": "Research Tool, Visualization Tool",
+  "description": "An open-source tool to generate risk of bias visualizations for multiple assessment tools including NOS, GRADE, ROBIS, JBI, and MMAT for meta-analysis and evidence synthesis.",
+  "url": "https://critiplot.vercel.app/",
+  "downloadUrl": "https://pypi.org/project/critiplot/",
+  "applicationSubCategory": "Evidence Synthesis Software",
+  "featureList": [
+    "Generates traffic light plots for risk of bias assessment",
+    "Creates weighted bar plots for domain-level distributions",
+    "Supports NOS (Newcastle-Ottawa Scale)",
+    "Supports GRADE (Grading of Recommendations Assessment, Development, and Evaluation)",
+    "Supports ROBIS (Risk Of Bias In Systematic reviews)",
+    "Supports JBI (Joanna Briggs Institute) for Case Reports and Series",
+    "Supports MMAT (Mixed Methods Appraisal Tool)",
+    "Publication-ready visualizations for manuscripts",
+    "Available as a web app and Python package"
+  ],
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "image": [
+    {
+      "@type": "ImageObject",
+      "url": "https://critiplot.vercel.app/assets/preview1.png",
+      "caption": "Critiplot risk of bias traffic light plot example"
     },
-    "publisher": {
-      "@type": "Organization",
-      "name": "Critiplot Project",
-      "url": "https://critiplot.vercel.app/"
+    {
+      "@type": "ImageObject",
+      "url": "https://critiplot.vercel.app/example/result.png",
+      "caption": "Critiplot NOS Figure"
     },
-    "license": "https://www.apache.org/licenses/LICENSE-2.0",
-    "sameAs": [
-      "https://github.com/aurumz-rgb/Critiplot-main",
-      "https://doi.org/10.5281/zenodo.17236600",
-      "https://pypi.org/project/critiplot/"
-    ]
-  }
-  </script>
+    {
+      "@type": "ImageObject",
+      "url": "https://critiplot.vercel.app/example/grade_result1.png",
+      "caption": "Critiplot GRADE Figure default"
+    },
+    {
+      "@type": "ImageObject",
+      "url": "https://critiplot.vercel.app/example/robis_result1.png",
+      "caption": "Critiplot ROBIS Figure"
+    },
+    {
+      "@type": "ImageObject",
+      "url": "https://critiplot.vercel.app/example/case_report2.png",
+      "caption": "Critiplot JBI Case Report Figure gray"
+    },
+    {
+      "@type": "ImageObject",
+      "url": "https://critiplot.vercel.app/example/series_plot.png",
+      "caption": "Critiplot JBI Case Series Figure"
+    },
+    {
+      "@type": "ImageObject",
+      "url": "https://critiplot.vercel.app/example/MMAT1.png",
+      "caption": "Critiplot MMAT Figure 1"
+    },
+    {
+      "@type": "ImageObject",
+      "url": "https://critiplot.vercel.app/example/Screenshot1.png",
+      "caption": "Critiplot User-Interface"
+    }
+  ],
+  "creator": {
+    "@type": "Person",
+    "name": "Vihaan Sahu",
+    "affiliation": "Critiplot Project"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Critiplot Project",
+    "url": "https://critiplot.vercel.app/"
+  },
+  "license": "https://www.apache.org/licenses/LICENSE-2.0",
+  "sameAs": [
+    "https://github.com/aurumz-rgb/Critiplot-main",
+    "https://doi.org/10.5281/zenodo.17236600",
+    "https://pypi.org/project/critiplot/"
+  ]
+}
+</script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Host+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -746,6 +693,38 @@
       }
     }
   </style>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Critiplot?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Critiplot is a free, open-source visualization tool designed for researchers to generate publication-ready traffic light plots and weighted bar plots for risk of bias assessments in systematic reviews and meta-analyses."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which risk of bias assessment tools does Critiplot support?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Critiplot supports the Newcastle-Ottawa Scale (NOS), GRADE (Grading of Recommendations Assessment, Development, and Evaluation), ROBIS (Risk Of Bias In Systematic reviews), JBI (Joanna Briggs Institute) for case reports and series, and MMAT (Mixed Methods Appraisal Tool)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Critiplot free to use?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, Critiplot is completely free and open-source. It is available as a web application and as a Python package licensed under Apache 2.0."
+      }
+    }
+  ]
+}
+</script>
 </head>
 <body>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-QRNJRME77M"></script>
@@ -796,22 +775,22 @@
     <section class="carousel">
       <button class="carousel-arrow prev">&#10094;</button>
       <div class="carousel-track">
-        <img src="example/result.png" alt="Result 1">
-        <img src="example/result1.png" alt="Result 2">
-        <img src="example/grade_result1.png" alt="GRADE Result 1">
-        <img src="example/grade_result3.png" alt="GRADE Result 3">
-        <img src="example/robis_result3.png" alt="ROBIS Result 3">
-        <img src="example/robis_result4.png" alt="ROBIS Result 4">
-        <img src="example/case_report.png" alt="Case Report">
-        <img src="example/case_report1.png" alt="Case Report 1">
-        <img src="example/case_report2.png" alt="Case Report 2">
-        <img src="example/series_plot2.png" alt="Series Plot 2">
-        <img src="example/series_plot4.png" alt="Series Plot 4">
-        <img src="example/MMAT7.png" alt="MMAT Result 1">
-        <img src="example/MMAT2.png" alt="MMAT Result 2">
-        <img src="example/MMAT9.png" alt="MMAT Result 3">
-        <img src="example/MMAT6.png" alt="MMAT Result 4">
-        <img src="example/MMAT8.png" alt="MMAT Result 5">
+        <img src="example/result.png" alt="NOS Newcastle-Ottawa Scale traffic light plot example">
+        <img src="example/result1.png" alt="NOS risk of bias summary bar plot gray theme">
+        <img src="example/grade_result1.png" alt="GRADE evidence certainty traffic light plot">
+        <img src="example/grade_result3.png" alt="GRADE summary plot blue theme">
+        <img src="example/robis_result3.png" alt="ROBIS risk of bias systematic review plot">
+        <img src="example/robis_result4.png" alt="ROBIS traffic light plot visualization">
+        <img src="example/case_report.png" alt="JBI Case Report critical appraisal plot">
+        <img src="example/case_report1.png" alt="JBI Case Report risk of bias visualization">
+        <img src="example/case_report2.png" alt="JBI Case Report traffic light plot gray">
+        <img src="example/series_plot2.png" alt="JBI Case Series critical appraisal plot">
+        <img src="example/series_plot4.png" alt="JBI Case Series risk of bias summary plot">
+        <img src="example/MMAT7.png" alt="MMAT Mixed Methods Appraisal Tool plot">
+        <img src="example/MMAT2.png" alt="MMAT risk of bias traffic light plot">
+        <img src="example/MMAT9.png" alt="MMAT qualitative study appraisal plot">
+        <img src="example/MMAT6.png" alt="MMAT randomized trial risk of bias plot">
+        <img src="example/MMAT8.png" alt="MMAT publication-ready visualization example">
       </div>
       <button class="carousel-arrow next">&#10095;</button>
     </section>
